@@ -12,9 +12,9 @@ const ImportantDate = () => {
           <ul className='text-red-600'>
             <li>Conference Date : 25th-26th April 2024</li>
             <li>Submission Date : 20th March 2024</li>
-            <li>Notification to Authors : </li>
-            <li>Camera Ready Submission : </li>
-            <li>Registration Deadline : </li>
+            <li>Notification to Authors : 25 March 2024</li>
+            <li>Camera Ready Submission : 30th March 2024 </li>
+            <li>Registration Deadline : 5th April 2024 </li>
 
 
           </ul>

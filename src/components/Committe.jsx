@@ -47,7 +47,6 @@ const Committe = () => {
               <li className='text-sm'>Prof. M.B Vaidya</li>
               <li className='text-sm'>Prof. K.U. Rahane</li>
               <li className='text-sm'>Prof. S.R. Pandit</li>
-
           </ul>
         </div>
 
