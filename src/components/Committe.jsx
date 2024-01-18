@@ -41,7 +41,13 @@ const Committe = () => {
           <ul className='list-star'>
               <li className='text-sm'>Prof. R.L. Paikrao</li>
               <li className='text-sm'>Dr. M.A. Wakchaure</li>
+              <li className='text-sm'>Dr. A.R. Panhalkar</li>
+              <li className='text-sm'>Dr. G.D. Puri</li>
+              <li className='text-sm'>Dr. S.B. Bhonde</li>
               <li className='text-sm'>Prof. M.B Vaidya</li>
+              <li className='text-sm'>Prof. K.U. Rahane</li>
+              <li className='text-sm'>Prof. S.R. Pandit</li>
+
           </ul>
         </div>
 
