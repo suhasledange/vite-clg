@@ -22,13 +22,73 @@ export const SideMenu=[
     {id:12,link:"/venue",text:"Accommodations"},
 
 ]
-export const HomeData=[
-    {
-        para:" SECOND INTERNATIONAL CONFERENCE ON RECENT TRENDS IN COMPUTING focuses on all the areas of Advance Computing, Networking and Informatics, Security and Privacy. The conference aims to bring together academic scientists, professors, research scholars and students to share and disseminate information and knowledge on scientific research works related to computing, networking, and informatics, and to discuss the practical challenges encountered along with the solutions adopted. The conference will provide the authors and participants with opportunities for national and international collaboration and networking among universities and institutions from India and abroad for promoting research and developing technologies. The conference endeavours to promote translation of basic research into applied investigation and convert applied investigation into practice.Researchers are encouraged to submit original research contributions in all major areas, which include, but not limited to:",
-        id:1,
-       
-    }
-]
+
+
+
+
+export const eventData = {
+    "Chief Patron": [
+      "Hon. Shri.Balasaheb Bhausaheb Thorat - President AVS & SS Ex-Minister, Govt. of Maharashtra",
+      "Hon. Shri Dr. Sudhir Bhaskarrao Tambe - Ex-M.L.C. Social Service"
+    ],
+    "Patron": [
+      "Dr. M.A. Venkatesh - Principal"
+    ],
+    "Convenor": [
+      "Dr. S.K. Sonkar - Asso.Prof. Computer Engineering Department."
+    ],
+    "Co-Convenor": [
+      "Prof. S.A Thanekar - Asst.Prof. Computer Engineering Department."
+    ],
+    "Publication Chairs": [
+      "Dr. R.G. Tambe",
+      "Dr. D.R. Patil"
+    ],
+    "Organizing Committee": [
+      "Prof. R.L. Paikrao",
+      "Dr. M.A. Wakchaure",
+      "Dr. A.R. Panhalkar",
+      "Dr. D.R. Patil",
+      "Dr. R.G. Tambe",
+      "Prof. M.B Vaidya",
+      "Prof. K.U. Rahane",
+      "Dr. G.D. Puri",
+      "Dr. S.B. Bhonde",
+      "Prof. S.R. Pandit",
+      "Prof. V.K. Abhang",
+      "Prof. J.N. Ganthade",
+      "Prof. Awdeshkumar",
+      "Prof. J.R. Tambe",
+      "Prof. S.R. Wakchaure",
+      "Prof. Y.S. Gunjal",
+      "Prof. A.S. Thorat",
+      "Prof. P.A. Thorat",
+      "Prof. M.B. Gunjal",
+      "Prof. R.S. Gaikwad",
+      "Prof. A. R. Nehe",
+      "Prof. Y. A. Shinde"
+    ],
+    "Advisory Committee": [
+      "Dr. Manohar G. Chaskar - Dean, Faculty of Science & Tech. SPPU, Pune",
+      "Dr. Pramod D. Patil - Associate Dean, SPPU Pune",
+      "Dr. Nilesh J. Uke - Chairman BOS Computer Engg. SPPU Pune",
+      "Dr. Amol D. Potgantwar",
+      "Dr. Pramod D. Patil",
+      "Dr. Sachin D. Babar",
+      "Dr. Vandana Dhingra",
+      "Dr. Deepali M. Ujalambkar",
+      "Dr. Balwant A. Sonkamble",
+      "Dr. Vaishali V. Vikhe",
+      "Dr. Sachin R. Sakhare",
+      "Dr. Dipti D. Patil",
+      "Dr. Pradip M. Jawandhiya",
+      "Dr. Suhasini A. Itkar",
+      "Dr. Dipak V. Patil",
+      "Dr. Dhananjay B. Kshirsagar",
+      "Dr. Sandip G. Deshmukh"
+    ]
+  };
+  
 
 export const researchTopics = [
     {
