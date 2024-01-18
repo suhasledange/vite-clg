@@ -29,3 +29,6 @@ export const HomeData=[
        
     }
 ]
+
+export const orgCom=[
+]

@@ -18,7 +18,6 @@ function App() {
       </div>
     <div className="sticky top-0 z-50 w-full flex flex-col max-w-screen-lg mx-auto overflow-x-hidden">
       <Header/>
-
       </div>
     
     <div className="w-full flex flex-col min-h-screen max-w-screen-lg mx-auto overflow-x-hidden">
@@ -37,7 +36,7 @@ function App() {
         ""
         }
        
-      <div className="my-10 max-w-screen-xl mx-auto gap-10 flex flex-wrap justify-center">
+      <div className="my-10 max-w-screen-lg mx-auto gap-10 flex flex-wrap justify-center">
       {/* <Sidebar/> */}
       <Outlet/>
       </div>
