@@ -13,7 +13,7 @@ const Header = () => {
     setShowMenu(false)
   }
   return (
-    <header className="bg-white">
+    <header className={`bg-white ${ showMenu ? "h-screen":"" }`}>
       <nav className="flex items-center justify-between max-w-screen-xl mx-auto h-16">
         {/* Left Side - Home Icon */}
         <div className="h-full flex items-center">

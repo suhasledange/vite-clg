@@ -18,6 +18,7 @@ function App() {
       </div>
     <div className="sticky top-0 z-50 w-full flex flex-col max-w-screen-lg mx-auto overflow-x-hidden">
       <Header/>
+
       </div>
     
     <div className="w-full flex flex-col min-h-screen max-w-screen-lg mx-auto overflow-x-hidden">

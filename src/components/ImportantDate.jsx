@@ -15,10 +15,7 @@ const ImportantDate = () => {
             <li>Notification to Authors : 25 March 2024</li>
             <li>Camera Ready Submission : 30th March 2024 </li>
             <li>Registration Deadline : 5th April 2024 </li>
-
-
           </ul>
-
     </div>
     </div>
     </div>
