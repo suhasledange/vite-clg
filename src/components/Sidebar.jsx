@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { SideMenu } from '../constant';
 import { IoIosArrowForward } from "react-icons/io";
-import { logo } from '../assets';
 import IsHomeContext from '../context';
 
 const Sidebar = () => {
@@ -41,7 +40,7 @@ const Sidebar = () => {
         </ul>
         </div>
         <div className='flex items-center justify-center'>
-            <img className='lg:h-40 h-64 object-cover' src={logo} alt='X'/>
+            <img className='lg:h-40 h-64 object-cover' src="" alt='X'/>
         </div>
       </div>
     </div>
