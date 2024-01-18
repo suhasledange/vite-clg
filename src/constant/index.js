@@ -40,10 +40,6 @@ export const eventData = {
     "Co-Convenor": [
       "Prof. S.A Thanekar - Asst.Prof. Computer Engineering Department."
     ],
-    "Publication Chairs": [
-      "Dr. R.G. Tambe",
-      "Dr. D.R. Patil"
-    ],
     "Organizing Committee": [
       "Prof. R.L. Paikrao",
       "Dr. M.A. Wakchaure",
