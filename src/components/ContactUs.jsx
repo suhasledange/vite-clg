@@ -1,5 +1,4 @@
 import React from 'react'
-import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 
 const ContactUs = () => {
   return (
@@ -7,7 +6,7 @@ const ContactUs = () => {
        
     <div className='space-y-5 border border-gray-300 bg-white p-5 shadow'>
 
-
+   
      </div>
     </div>
   )
