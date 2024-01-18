@@ -34,7 +34,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-500 border-y">
+    <footer className="bg-gray-600 border-y">
       <button
         onClick={scrollToTop}
         ref={scrollToTopBtnRef}
