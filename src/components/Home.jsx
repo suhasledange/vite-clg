@@ -1,93 +1,31 @@
+import { HomeData } from "../constant";
 
 const Home = () => {
-  return (
+    return (
 
-    <div className='lg:flex-1'>
-    <div className='space-y-6 border border-gray-300 bg-white p-5 shadow'>
-        <div className='space-y-2'>
-            <h1 className='font-bold text-2xl'>ICRTC 2023</h1>
-            <p className='text-sm'>SECOND INTERNATIONAL CONFERENCE ON RECENT TRENDS IN COMPUTING focuses on all the areas of Advance Computing, Networking and Informatics, Security and Privacy. The conference aims to bring together academic scientists, professors, research scholars and students to share and disseminate information and knowledge on scientific research works related to computing, networking, and informatics, and to discuss the practical challenges encountered along with the solutions adopted. The conference will provide the authors and participants with opportunities for national and international collaboration and networking among universities and institutions from India and abroad for promoting research and developing technologies. The conference endeavours to promote translation of basic research into applied investigation and convert applied investigation into practice.</p>      
-            <p>Researchers are encouraged to submit original research contributions in all major areas, which include, but not limited to:</p>  
+        <div className='lg:flex-1'>
+            <div className='space-y-6 border bg-white p-5 shadow'>
+                <div className='space-y-2'>
+                    <h1 className='font-bold text-2xl'>ICRTACT 2024</h1>
+                    <p className='text-sm'>Happy new year 2024. Hearty greetings from AVCOE, Sangamner. The Department of Computer Engineering of AVCOE, Sangamner is committed to impart quality education in the field of Computer Engineering and Technology. We are delighted to invite you to the International Conference on Recent Trends and Advancements in Computing Technologies – 2024 “ ICRTACT-2024 ” to be held on 25th and 26th April 2024 at the Institution Campus.
+
+                        The conference will bring forth the advancements in the field of Computer Engineering and will provide a platform for students, academicians and professionals to share their innovative and pioneering views and emerging applications.
+
+                        We kindly solicit your support by sending students, academicians, professionals in making the event a success. We sincerely hope that you will join us in making this conference a success and look forward to welcome you.
+                    </p>
+                </div>
+
+                <div className='space-y-6'>
+
+                    <div className='space-y-6'>
+                        {/* <h1 className='text-xl font-medium'>Advanced Computing</h1> */}    
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <div className='space-y-6'>
-
-        <div className='space-y-6'>
-            <h1 className='text-xl font-medium'>Advanced Computing</h1>
-        <ul className='list-star text-sm'>
-            <li>Pattern recognition  </li>
-            <li>Image Processing and analysis  </li>
-            <li>Virtual Reality  </li>
-            <li>Document Image Processing  </li>
-            <li>Evolutionary Algorithms  </li>
-            <li>Ubiquitous Computing  </li>
-            <li>Web mining  </li>
-            <li>Perceptual Computing and related topics.  </li>
-        </ul>
-        </div>
-
-        <div className='space-y-6'>
-            <h1 className='text-xl font-medium'>Networking</h1>
-        <ul className='list-star text-sm'>
-            <li>Network Performance Analysis,  </li>
-            <li>Fault Tolerant Systems,  </li>
-            <li>Parallel and Distributed Networks,  </li>
-            <li>Routing Protocol and Architecture,  </li>
-            <li>Network Dependability,  </li>
-            <li>Network Optimization,  </li>
-            <li>End-to-end resilience,  </li>
-            <li>Quality of service,  </li>
-        </ul>
-        </div>
-
-        <div className='space-y-6'>
-            <h1 className='text-xl font-medium'>Informatics</h1>
-        <ul className='list-star text-sm'>
-            <li>Database and Query Processing, </li>
-            <li>Expert Systems,  </li>
-            <li>Data Security,  </li>
-            <li> Data Privacy Preserving,  </li>
-            <li>Techniques,  </li>
-            <li>Information Retrieval,  </li>
-            <li>Knowledge Discovery,  </li>
-            <li>Semantic Web,and related topics </li>
-        </ul>
-        </div>
-
-        <div className='space-y-6'>
-            <h1 className='text-xl font-medium'>Security and Privacy</h1>
-        <ul className='list-star text-sm'>
-            <li>Access control and authorization  </li>
-            <li>Attacks and defenses  </li>
-            <li>Anonymity  </li>
-            <li>Security and Privacy for the IoT and 5G  </li>
-            <li>Intrusion detection and Malware Analysis  </li>
-            <li>Vulnerability analysis and assessment  </li>
-            <li>Secure Protocols and Design  </li>
-            <li>Security and Privacy Measures and Policies  </li>
-            <li>Privacy Preserving Data Publishing & Mining  </li>
-            <li>Wireless Network System and Security  </li>
-            <li>Usable security and Privacy  </li>
-            <li>Biometric security systems  </li>
-            <li>Identity and Trust management  </li>
-            <li>Key management  </li>
-            <li>Fraud Detection  </li>
-            <li>Pervasive security  </li>
-            <li>Security for wearable and haptic technology and related topics.  </li>
-        </ul>
-        </div>
-
-        <div>
-            <p className='text-sm'>The topics are not strictly limited to above issues.</p>
-        </div>
-
-        </div>
-
-    
-    </div>
-    </div>
-
-  )
+    )
 }
 
 export default Home;

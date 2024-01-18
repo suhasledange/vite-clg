@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Navmenu } from '../constant';
 import { FaHome, FaBars } from 'react-icons/fa';
 import IsHomeContext from '../context';
-
+import { IoMdClose } from "react-icons/io";
 const Header = () => {
   
   const [showMenu, setShowMenu] = useState(false);
@@ -31,16 +31,13 @@ const Header = () => {
 
         {/* Right Side - Hamburger Icon */}
         <div className="flex items-center">
-          <div className="lg:hidden pr-4">
-            <FaBars
-              className="text-gray-800 cursor-pointer"
-              onClick={() => setShowMenu(!showMenu)}
-            />
+          <div className="lg:hidden pr-4"  onClick={() => setShowMenu(!showMenu)}>
+          {showMenu ? <IoMdClose  className="text-gray-800 cursor-pointer text-3xl"/> :  <FaBars className="text-gray-800 cursor-pointer text-2xl"/>}
           </div>
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden absolute top-16 right-0 bg-white w-full h-screen ${showMenu ? 'block' : 'hidden'}`}>
+        <div className={`lg:hidden absolute top-24 right-0 bg-white w-full h-screen ${showMenu ? 'block' : 'hidden'}`}>
           <ul className="flex flex-col">
             {Navmenu.map((item) => (
               <li key={item.id}>
@@ -48,7 +45,7 @@ const Header = () => {
                   to={item.link}
                   className={({isActive})=>`
                   border
-                  text-sm py-2 flex items-center duration-200
+                  text-sm py-4 flex items-center duration-200
                      px-4 ${isActive?" bg-green-600 text-gray-200":"hover:text-green-500"}
                   `}
                   onClick={multipleFun}

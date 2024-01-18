@@ -22,7 +22,7 @@ function App() {
       <div className="bg-white pb-3 mx-auto h-full">
 
         <div className="text-center max-w-screen-md mx-auto py-5">
-        <h2 className="mb-1 mt-2 text-2xl font-medium">INTERNATIONAL CONFERENCE ON RECENT TRENDS AND ADVANCEMENTS IN COMPUTING TECHNOLOGIES</h2>
+        <h2 className="mb-1 mt-2 text-xl lg:text-2xl font-medium">INTERNATIONAL CONFERENCE ON RECENT TRENDS AND ADVANCEMENTS IN COMPUTING TECHNOLOGIES</h2>
         </div>
 
         {
