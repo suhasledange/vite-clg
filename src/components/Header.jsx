@@ -37,7 +37,7 @@ const Header = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden absolute top-24 right-0 bg-white w-full h-screen ${showMenu ? 'block' : 'hidden'}`}>
+        <div className={`lg:hidden absolute z-50 top-24 right-0 bg-white w-full h-screen ${showMenu ? 'block' : 'hidden'}`}>
           <ul className="flex flex-col">
             {Navmenu.map((item) => (
               <li key={item.id}>
