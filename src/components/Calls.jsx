@@ -9,8 +9,6 @@ const Calls = () => {
             <h1 className='font-bold text-2xl'>CALL FOR PAPERS</h1>
             <p className='text-sm'>We are pleased to invite you to submit original contributions to icrtc2023@gmail.com. This can include, technical and experimental, theoretical, conceptual, or a survey. All submissions will be peer-reviewed on the basis of relevance, originality, importance and clarity.</p>        
         </div>
-
-
       <div className='space-y-2'>
         <h3 className='text-xl font-medium'>Submission System</h3>
         <p className='text-sm'>icrtc2023@gmail.com</p>
