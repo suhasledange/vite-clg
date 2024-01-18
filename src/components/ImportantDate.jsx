@@ -7,7 +7,7 @@ const ImportantDate = () => {
     <div className='space-y-5 border bg-white p-5 shadow'>
 
         <div className='space-y-6'>
-             <h1 className='text-xl font-medium'>IMPORTANT DATES : </h1>  
+             <h1 className='text-xl font-bold'>IMPORTANT DATES : </h1>  
             
           <ul className='text-red-600'>
             <li>Conference Date : 25th-26th April 2024</li>

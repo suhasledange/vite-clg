@@ -3,7 +3,7 @@ export const Navmenu=[
     {id:2,link:"/calls",text:"CALLS"},
     {id:3,link:"/importantDate",text:"IMPORTANT DATES"},
     {id:4,link:"/committe",text:"COMMITTE"},
-    {id:5,link:"/keynote",text:"KEYNOTE SPEAKERS"},
+    // {id:5,link:"/keynote",text:"KEYNOTE SPEAKERS"},
     {id:6,link:"/submission",text:"SUBMISSION"},
     {id:7,link:"/contact",text:"CONTACT"},
 ]
@@ -30,5 +30,86 @@ export const HomeData=[
     }
 ]
 
-export const orgCom=[
-]
+export const researchTopics = [
+    {
+      "category": "Networking",
+      "subtopics": [
+        "Mobile ad-hoc networks",
+        "Software defined networks",
+        "Information theory and coding",
+        "Cloud communications and networking",
+        "Wearable network and systems",
+        "Personal communication systems",
+        "Vehicular networks and applications",
+        "Wireless communications",
+        "Virtual and overlay networks",
+        "Future Internet Architecture",
+        "Satellite Communication",
+        "Next Generation Networking",
+        "Quantum Networking",
+        "QoS Provisioning and Architectures",
+        "Telecommunication Services and Applications",
+        "Optical Communication",
+        "Network Performance"
+      ]
+    },
+    {
+      "category": "Security",
+      "subtopics": [
+        "Computer Security",
+        "Digital Signature",
+        "Information Security",
+        "Network Security",
+        "Cyber Security",
+        "MANET’s"
+      ]
+    },
+    {
+      "category": "Computing",
+      "subtopics": [
+        "Computational Intelligence",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Signal Processing",
+        "Computer vision",
+        "Soft Computing",
+        "Decision Support and Decision making",
+        "Parallel computing",
+        "Distributed computing",
+        "Grid computing",
+        "Cloud computing",
+        "Mobile computing",
+        "Biomedical computing",
+        "Ubiquitous computing",
+        "Image processing",
+        "Information retrieval",
+        "Deep learning",
+        "Expert system",
+        "Internet computing",
+        "High performance computing",
+        "Intelligent Systems for IoT"
+      ]
+    },
+    {
+      "category": "IoT and Big Data",
+      "subtopics": [
+        "Environmental Monitoring",
+        "Machine to Machine/Device Communications",
+        "Network Design and Architecture",
+        "Wireless Systems and Applications",
+        "Infrastructure Management",
+        "IoT and Big Data",
+        "Home Automation",
+        "Security and Privacy",
+        "Social Implications of IoT",
+        "Technological focus for Smart Environments",
+        "Smart City Case Studies",
+        "Data Analysis and Visualization",
+        "Architecture for secure and interactive IoT",
+        "Sensor, Wireless Technologies and APIs",
+        "Emerging IoT"
+      ]
+    }
+  ];
+  
+  

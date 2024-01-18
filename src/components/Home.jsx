@@ -1,4 +1,4 @@
-import { HomeData } from "../constant";
+import { HomeData, researchTopics } from "../constant";
 
 const Home = () => {
     return (
@@ -18,8 +18,23 @@ const Home = () => {
                 <div className='space-y-6'>
 
                     <div className='space-y-6'>
-                        {/* <h1 className='text-xl font-medium'>Advanced Computing</h1> */}    
+                        <h1 className='text-xl font-medium'>Wireless sensor networks</h1>    
+                   
                     </div>
+            
+                    <div>
+      {researchTopics.map(category => (
+        <div key={category.category}>
+          <h2 className="mb-6 mt-5 text-lg">{category.category} : </h2>
+          <ul className="space-y-2 list-star">
+            {category.subtopics.map(subtopic => (
+              <li className="text-sm" key={subtopic}>{subtopic}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
 
                 </div>
             </div>
