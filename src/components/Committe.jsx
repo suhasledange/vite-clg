@@ -13,7 +13,6 @@ const Committe = () => {
 
         <div className='space-y-8'>
 
-
         <div>
           <h1 className='text-lg mb-2'>Convenor</h1>
           <ul className='list-star'>
@@ -32,18 +31,17 @@ const Committe = () => {
         <div>
           <h1 className='text-lg mb-2'>Publication Chairs</h1>
           <ul className='list-star'>
-              <li className='text-sm'></li>
-              <li className='text-sm'></li>
-              <li className='text-sm'></li>
+              <li className='text-sm'>Dr. R.G. Tambe</li>
+              <li className='text-sm'>Dr. D.R. Patil</li>
           </ul>
         </div>
 
         <div>
           <h1 className='text-lg mb-2'>Organizing Committee</h1>
           <ul className='list-star'>
-              <li className='text-sm'></li>
-              <li className='text-sm'></li>
-              <li className='text-sm'></li>
+              <li className='text-sm'>Prof. R.L. Paikrao</li>
+              <li className='text-sm'>Dr. M.A. Wakchaure</li>
+              <li className='text-sm'>Prof. M.B Vaidya</li>
           </ul>
         </div>
 

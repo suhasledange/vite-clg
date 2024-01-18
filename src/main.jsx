@@ -18,13 +18,6 @@ const router = createBrowserRouter(
       <Route path='keynote' element={<KeyNote/>}/>
       <Route path='submission' element={<Submmision/>}/>
       <Route path='contact' element={<ContactUs/>}/>
-      <Route path='journal' element={<Journal/>}/>
-      <Route path='camera' element={<Camera/>}/>
-      <Route path='visa' element={<Visa/>}/>
-      <Route path='program' element={<FinalProgram/>}/>
-      <Route path='venue' element={<Accomodation/>}/>
-      <Route path='proceeding' element={<PastProceeding/>}/>
-
     </Route>
   )
 )

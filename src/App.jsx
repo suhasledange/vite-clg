@@ -13,12 +13,15 @@ function App() {
 
   return (
     <>
-    <div className="w-full flex flex-col min-h-screen max-w-screen-lg mx-auto overflow-x-hidden">
-      <div className="mb-4">
+    <div className="w-full flex flex-col max-w-screen-lg mx-auto overflow-x-hidden ">
       <Head/>
+      </div>
+    <div className="sticky top-0 z-50 w-full flex flex-col max-w-screen-lg mx-auto overflow-x-hidden">
       <Header/>
       </div>
-      
+    
+    <div className="w-full flex flex-col min-h-screen max-w-screen-lg mx-auto overflow-x-hidden">
+    
       <div className="bg-white pb-3 mx-auto h-full">
 
         <div className="text-center max-w-screen-md mx-auto py-5">
@@ -27,7 +30,7 @@ function App() {
 
         {
           isHome ?
-          <div className=" pb-8 ">
+          <div className="">
           <Slider/>
         </div>:
         ""

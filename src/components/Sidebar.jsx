@@ -21,7 +21,7 @@ const Sidebar = () => {
       <div className="space-y-8">
         <div className='bg-white border border-gray-300 rounded-md'>
         <ul className=''>
-            <h1 className='py-2 px-3 rounded-t-md bg-red-600 text-gray-100 font-medium text-lg'>Main Menu</h1>
+            <h1 className='py-2 px-3 rounded-t-md bg-green-600 text-gray-100 font-medium text-lg'>Main Menu</h1>
         {SideMenu.map((item) => (
               <li key={item.id} className='text-sm'>
                 <NavLink 

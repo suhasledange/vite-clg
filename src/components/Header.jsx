@@ -13,7 +13,7 @@ const Header = () => {
     setShowMenu(false)
   }
   return (
-    <header className="sticky top-0 bg-white z-50">
+    <header className="bg-white">
       <nav className="flex items-center justify-between max-w-screen-xl mx-auto h-16">
         {/* Left Side - Home Icon */}
         <div className="h-full flex items-center">
