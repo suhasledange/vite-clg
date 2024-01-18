@@ -13,18 +13,19 @@ const Header = () => {
     setShowMenu(false)
   }
   return (
-    <header className="shadow sticky top-0 bg-white z-50">
+    <header className="sticky top-0 bg-white z-50">
       <nav className="flex items-center justify-between max-w-screen-xl mx-auto h-16">
         {/* Left Side - Home Icon */}
         <div className="h-full flex items-center">
           <NavLink
             to="/"
             onClick={(e)=>setIsHome(true)}
-            className={({isActive})=>` ${isActive?"bg-red-600 text-gray-100":"hover:text-red-500"}
+            className={({isActive})=>` ${isActive?"bg-green-600 text-gray-100":"hover:text-green-500"}
             h-full flex items-center px-4
       `}
           >
             <FaHome className="text-2xl" />
+            
           </NavLink>
         </div>
 
@@ -48,7 +49,7 @@ const Header = () => {
                   className={({isActive})=>`
                   border
                   text-sm py-2 flex items-center duration-200
-                     px-4 ${isActive?" bg-red-600 text-gray-200":"hover:text-red-500"}
+                     px-4 ${isActive?" bg-green-600 text-gray-200":"hover:text-green-500"}
                   `}
                   onClick={multipleFun}
                 >
@@ -69,7 +70,7 @@ const Header = () => {
                   onClick={(e)=>setIsHome(false)}
                   className={({isActive})=>`
                   h-full flex items-center duration-200
-                     px-4 ${isActive?" bg-red-600 text-gray-200":"hover:text-red-500"}
+                     px-4 ${isActive?" bg-green-600 text-gray-200":"hover:text-green-500"}
                   `}
                 >
                   

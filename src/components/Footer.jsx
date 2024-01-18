@@ -34,20 +34,20 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-300 border-y">
+    <footer className="bg-gray-500 border-y">
       <button
         onClick={scrollToTop}
         ref={scrollToTopBtnRef}
-        className="opacity-0 fixed bottom-[3.5rem] right-2 bg-red-600 text-white px-3 py-2 rounded-md cursor-pointer transition-opacity duration-300 ease-in-out"
+        className="opacity-0 fixed bottom-[3.5rem] right-2 bg-green-600 text-white px-3 py-2 rounded-md cursor-pointer transition-opacity duration-300 ease-in-out"
       >
         <IoIosArrowUp className="text-2xl font-mediums" />
       </button>
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 flex items-center justify-between">
         <div>
-          <h1 className="font-medium text-gray-800">&copy; FMEC 2024.</h1>
+          <h1 className="font-medium text-gray-200">&copy; AVCOE 2024.</h1>
         </div>
         <div>
-          <Link className="text-gray-700" to="/calls">
+          <Link className="text-gray-200" to="/calls">
             All Rights Reserved
           </Link>
         </div>

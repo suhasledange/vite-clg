@@ -1,7 +1,10 @@
 import logo from './ITCVT.jpg'
-import slide1 from './slider-1.jpg'
-import slide2 from './slider-2.jpg'
-import slide3 from './slider-3.jpg'
+import slide1 from './1.png'
+import slide2 from './2.png'
+import slide3 from './3.png'
+import avcoe from './avcoe.png'
+
+
 
 const Images=[
     {id:1,img:slide1},
@@ -10,4 +13,4 @@ const Images=[
 ]
 
 
-export {logo,Images}
+export {logo,Images,avcoe}

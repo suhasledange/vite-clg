@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Slider from "./components/Slider";
 import { useContext, useState } from "react";
 import IsHomeContext from "./context";
+import Head from "./components/Head";
 
 function App() {
   
@@ -12,11 +13,16 @@ function App() {
 
   return (
     <>
+    <div className="w-full flex flex-col min-h-screen max-w-screen-lg mx-auto overflow-x-hidden">
+      <div className="mb-4">
+      <Head/>
       <Header/>
-      <div className="bg-gray-100 pb-3 mx-auto h-full">
+      </div>
+      
+      <div className="bg-white pb-3 mx-auto h-full">
 
         <div className="text-center max-w-screen-md mx-auto py-5">
-        <h2 className="mb-1 mt-2 text-2xl font-medium">SECOND INTERNATIONAL CONFERENCE ON RECENT TRENDS IN COMPUTING (ICRTC 2023)</h2>
+        <h2 className="mb-1 mt-2 text-2xl font-medium">INTERNATIONAL CONFERENCE ON RECENT TRENDS AND ADVANCEMENTS IN COMPUTING TECHNOLOGIES</h2>
         </div>
 
         {
@@ -26,18 +32,16 @@ function App() {
         </div>:
         ""
         }
-        <div className="text-center max-w-screen-md mx-auto">
-        <h3 className="text-xl">
-        Sanjivani College of Engineering, Tal.Kopargaon, Pincode 423 603. District Ahmednagar, Maharashtra. India. December 15 & 16, 2023.
-        </h3>
-        </div>
+       
       <div className="my-10 max-w-screen-xl mx-auto gap-10 flex flex-wrap justify-center">
-      <Sidebar/>
+      {/* <Sidebar/> */}
       <Outlet/>
       </div>
       </div>
+    </div>
       <Footer/>
     </>
+
   )
 }
 

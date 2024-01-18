@@ -45,7 +45,7 @@ const Slider = () => {
           <span
             key={index}
             onClick={() => setCurrentImage(index)}
-            className={`w-3 h-3 mx-1 rounded-full bg-gray-300 cursor-pointer ${index === currentImage ? 'bg-red-500' : ''}`}
+            className={`w-3 h-3 mx-1 rounded-full bg-gray-300 cursor-pointer ${index === currentImage ? 'bg-green-500' : ''}`}
           ></span>
         ))}
       </div>
