@@ -14,7 +14,7 @@ const Header = () => {
   }
   return (
     <header className={`bg-white ${ showMenu ? "h-screen":"" }`}>
-      <nav className="flex items-center justify-between max-w-screen-lg mx-auto h-16">
+      <nav className="flex items-center justify-between max-w-screen-lg mx-auto h-14">
         {/* Left Side - Home Icon */}
         <div className="h-full flex items-center">
           <NavLink

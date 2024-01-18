@@ -1,4 +1,4 @@
-import { HomeData, researchTopics } from "../constant";
+import {  researchTopics } from "../constant";
 
 const Home = () => {
     return (
