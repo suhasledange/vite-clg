@@ -5,7 +5,7 @@ import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import HomeContextProvider from './context/HomeContextProvider.jsx'
 
-import {AboutUs, Accomodation, Calls, Camera, Committe, ContactUs, FinalProgram, Home, ImportantDate, Journal, KeyNote, PastProceeding, Submmision, Visa} from './components/index.js'
+import {AboutUs, Calls, Committe, ContactUs, Home, ImportantDate, Submmision,} from './components/index.js'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,7 +15,6 @@ const router = createBrowserRouter(
       <Route path='calls' element={<Calls/>}/>
       <Route path='importantDate' element={<ImportantDate/>}/>
       <Route path='committe' element={<Committe/>}/>
-      <Route path='keynote' element={<KeyNote/>}/>
       <Route path='submission' element={<Submmision/>}/>
       <Route path='contact' element={<ContactUs/>}/>
     </Route>
