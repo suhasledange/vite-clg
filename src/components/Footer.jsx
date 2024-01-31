@@ -32,7 +32,6 @@ const Footer = () => {
   //     window.scrollTo(0, c - c / 8);
   //   }
   // };
-
   return (
     <footer className="bg-gray-600 border-y">
       {/* <button
