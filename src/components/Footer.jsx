@@ -3,45 +3,45 @@ import { Link } from 'react-router-dom';
 import { IoIosArrowUp } from 'react-icons/io';
 
 const Footer = () => {
-  const scrollToTopBtnRef = useRef(null);
+  // const scrollToTopBtnRef = useRef(null);
 
-  useEffect(() => {
-    const scrollToTopBtn = scrollToTopBtnRef.current;
+  // useEffect(() => {
+  //   const scrollToTopBtn = scrollToTopBtnRef.current;
 
-    const handleScroll = () => {
-      if (window.scrollY > 20) {
-        scrollToTopBtn.classList.remove('opacity-0');
-        scrollToTopBtn.classList.add('opacity-100');
-      } else {
-        scrollToTopBtn.classList.remove('opacity-100');
-        scrollToTopBtn.classList.add('opacity-0');
-      }
-    };
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 20) {
+  //       scrollToTopBtn.classList.remove('opacity-0');
+  //       scrollToTopBtn.classList.add('opacity-100');
+  //     } else {
+  //       scrollToTopBtn.classList.remove('opacity-100');
+  //       scrollToTopBtn.classList.add('opacity-0');
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
-  const scrollToTop = () => {
-    const c = document.documentElement.scrollTop || document.body.scrollTop;
-    if (c > 0) {
-      window.requestAnimationFrame(scrollToTop);
-      window.scrollTo(0, c - c / 8);
-    }
-  };
+  // const scrollToTop = () => {
+  //   const c = document.documentElement.scrollTop || document.body.scrollTop;
+  //   if (c > 0) {
+  //     window.requestAnimationFrame(scrollToTop);
+  //     window.scrollTo(0, c - c / 8);
+  //   }
+  // };
 
   return (
     <footer className="bg-gray-600 border-y">
-      <button
+      {/* <button
         onClick={scrollToTop}
         ref={scrollToTopBtnRef}
         className="opacity-0 fixed bottom-[3.5rem] right-2 bg-green-600 text-white px-3 py-2 rounded-md cursor-pointer transition-opacity duration-300 ease-in-out"
       >
         <IoIosArrowUp className="text-2xl font-mediums" />
-      </button>
+      </button> */}
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 flex items-center justify-between">
         <div>
           <h1 className="font-medium text-gray-200">&copy; AVCOE 2024.</h1>
